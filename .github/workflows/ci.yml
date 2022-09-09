@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ master ]
 jobs:
-  phpunit:
+  Testing: Laravel Test by PHPUnit
     runs-on: ubuntu-latest
     container:
       image: kirschbaumdevelopment/laravel-test-runner:7.4
