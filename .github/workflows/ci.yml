@@ -1,5 +1,9 @@
-on: push
-name: CI
+name: CI (Continuous Integration)
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
   phpunit:
     runs-on: ubuntu-latest
